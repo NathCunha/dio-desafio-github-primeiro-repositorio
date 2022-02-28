@@ -1,0 +1,31 @@
+O **Git Bash** é um terminal estendido para otimizar o uso do Git.
+
+## Comandos básicos no Git
+
+- **git init** = iniciar e cria-se um repositório do git
+- **git add** = para mover arquivos e começar de fato a dar inicio ao versionamento e conhecer os primeiros comandos. Ele move os arquivos de para Staged, seja ele untracked direto para Staged ou os arquivos que foram modificados e movendo também para staged, na área em que eles vão entrar em ação. Variações:
+    - **git add nomeArquivo**
+    - **git add ***
+    - **git add .**
+- **git commit** = para criar um commit. Com esse comando todos  os arquivos que estão em staged foram pegos e envelopados em uma mensagem dando significancia a eles e criou esse objeto do git chamado commit. Comando:
+    - **git commit -m “mensagem desejada”**
+- **git status** = com esse comando é possível verificar se o arquivo está unmodified, modified, staged...
+
+> Quando se usa o terminal se coloca o nome do programa na frente seguido do comando  especifico desse programa
+> 
+- **git remote add origin =** Comando que usamos para dizer o local (endereço do repositório remoto) que iremos empurra o repositório local para um repositório remoto; colocar tudo que foi feito na máquina localmente, na área de desenvolvimento.
+- **git push origin master =** comando para empurrar de fato o repositorio local para o remoto.
+- **git pull  origin master=** é o oposto do git push; esse comando puxa o arquivo do repositório remoto para o local
+- **git clone URL-do-repositório-que-será-clonado =** é o oposto do git push; esse comando puxa o arquivo do repositório remoto para o local
+### Flags de comandos
+    - **-a** = é usada para mostrar arquivos ocultos. Ex.: ls -a
+
+### Conceitos:
+    - **Tracked** = são arquivos rastreáveis, que o git tem “ciência” deles. Podem se subdividir em estados:
+        - **Unmodified** = é o arquivo que ainda não foi modificado.
+        - **Modified** = é o arquivo **Unmodified** que sofreu modificação. É uma mudança automática, assim que ocorre alguma alteração no arquivo **Unmodified**, isso porque o git compara o sha1 dos arquivos.
+        - **Staged** = é onde ficam os arquivos que estão se preparando para fazer parte de um outro tipo de agrupamento. Quando se roda um “git add” novamente em um arquivo modified esse arquivo vai para “staged”. Os arquivos nesse estado estão se preparando para fazer parte de um commit.
+    - **Untracked** = são os arquivos que o git ainda não tem ciência deles. Quando se tem um arquivo unmodified e ele é removido ele se torna untracked.
+
+- merge conflits(?)
+- .gitignore =  é um arquivo que pode ser colocado em um projeto quando se está trabalhando com uma determinada tecnologia para que ele possa fazer o git ignorar alguns arquivos que são arquivos de bild e não são necessariamente essenciais para o versionamento. (estudar)
