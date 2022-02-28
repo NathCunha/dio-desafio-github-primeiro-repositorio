@@ -5,8 +5,8 @@ O **Git Bash** é um terminal estendido para otimizar o uso do Git.
 - **git init** = iniciar e cria-se um repositório do git
 - **git add** = para mover arquivos e começar de fato a dar inicio ao versionamento e conhecer os primeiros comandos. Ele move os arquivos de para Staged, seja ele untracked direto para Staged ou os arquivos que foram modificados e movendo também para staged, na área em que eles vão entrar em ação. Variações:
     - **git add nomeArquivo**
-    - **git add ***
-    - **git add .**
+    - **git add *** = é para add todos os arquivos.
+    - **git add .** = é para add todos os arquivos.
 - **git commit** = para criar um commit. Com esse comando todos  os arquivos que estão em staged foram pegos e envelopados em uma mensagem dando significancia a eles e criou esse objeto do git chamado commit. Comando:
     - **git commit -m “mensagem desejada”**
 - **git status** = com esse comando é possível verificar se o arquivo está unmodified, modified, staged...
