@@ -3,5 +3,7 @@ Repositório criado para o Desafio de Projeto.
 
 Este repositório possui pastas para cada uma das aulas do bootcamp da DIO Take Blip Web Developer.
 
+Em cada uma das pastas há os resppectivos exercícios desenvolvidos durante as aulas.
+
 ### Links úteis
 [Sintaxe básica Markdown](https://www.markdownguide.org/basic-syntax/) 
