@@ -6,4 +6,7 @@ Este repositório possui pastas para cada uma das aulas do bootcamp da DIO Take 
 Em cada uma das pastas há os respectivos exercícios desenvolvidos durante as aulas.
 
 ### Links úteis
-[Sintaxe básica Markdown](https://www.markdownguide.org/basic-syntax/) 
+[Sintaxe básica Markdown](https://www.markdownguide.org/basic-syntax/)<br>
+[Bootstrap](https://getbootstrap.com.br/docs/4.1/layout/overview/)<br>
+[Gerador de paleta de cores](https://paletadecores.com)<br>
+[Banco de imagens gratuitas](https://paletadecores.com)
