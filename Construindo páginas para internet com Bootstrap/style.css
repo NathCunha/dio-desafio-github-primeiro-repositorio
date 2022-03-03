@@ -3,22 +3,25 @@ body{
 }
 
 .navbar{
-    background: #82b0af;
+    background: #9bc4c3;
 }
 
 .quem-somos{
-    background-color: #9bc4c3;
-    color: black;
-
+    background-color: #ccebeb;
 }
 
 .parceiros{
-    background-color: #b4d8d7;
+    background-color: #e5ffff;
 }
 
 .servicos{
     background-color: #ccebeb;    
 }
+
+.footer{
+    background-color: #b4d8d7;
+    color: rgb(128, 127, 127);
+ }
 
 .margin{
     padding-top: 30px;
@@ -31,9 +34,4 @@ body{
 
 p{
     text-align: justify;
-}
-
-.bg-footer{
-   background-color: #e5ffff;
-   color: gray;
 }
